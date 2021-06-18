@@ -1,10 +1,11 @@
 import React from 'react'; 
-import { Navbar, Nav, ButtonGroup, Button, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, ButtonGroup, Button, NavDropdown } from "react-bootstrap";
 import "./Navbar.scss";
 import logo from "../assests/logo.png";
 
 const Navigation = () => (
     <Navbar variant="dark"  expand="lg">
+    <Container>
   <Navbar.Brand href="#home">
     <img
         src={logo}
@@ -33,6 +34,7 @@ const Navigation = () => (
   <Button variant="outline-light">Abra sua conta</Button>
 </ButtonGroup>
   </Navbar.Collapse>
+  </Container>
 </Navbar>
 );
 
