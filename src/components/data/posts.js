@@ -1,8 +1,8 @@
-import image1 from '../assets/post-1.jpg';
-import image2 from '../assets/post-2.jpg';
-import image3 from '../assets/post-3.jpg';
+import image1 from '../assests/post-1.jpg';
+import image2 from '../assests/post-2.jpg';
+import image3 from '../assests/post-3.jpg';
 
-const posts = [
+const posts = () => [
   {
     id: 1,
     image: image1,
@@ -52,5 +52,8 @@ const posts = [
     action: 'Peça já',
   },
 ];
+
+
+
 
 export default posts;

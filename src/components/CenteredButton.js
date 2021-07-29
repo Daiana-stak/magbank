@@ -12,3 +12,4 @@ const CenteredButton = ({ children }) => (
 );
 
 export default CenteredButton;
+
