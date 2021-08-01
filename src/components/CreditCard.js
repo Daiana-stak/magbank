@@ -7,7 +7,7 @@ import {
   faWallet,
 } from '@fortawesome/free-solid-svg-icons';
 import IconText from './IconText';
-
+import Teste from '../assests/teste.jpg';
 import './CreditCard.scss';
 
 const CreditCard = () => (
@@ -61,7 +61,7 @@ const CreditCard = () => (
         </Row>
       </Col>
       <Col xs={12} lg={5}>
-        <Image src={creditCard} alt='Magbank Credit Card Example' fluid />
+        <Image src={Teste} alt='Magbank Credit Card Example' fluid />
       </Col>
     </Row>
   </Container>

@@ -1,6 +1,6 @@
-import image1 from '../assests/post-1.jpg';
-import image2 from '../assests/post-2.jpg';
-import image3 from '../assests/post-3.jpg';
+import image1 from '../../assests/post-1.jpg';
+import image2 from '../../assests/post-2.jpg';
+import image3 from '../../assests/post-3.jpg';
 
 const posts = () => [
   {
